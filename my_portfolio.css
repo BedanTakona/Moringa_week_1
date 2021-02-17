@@ -36,3 +36,7 @@
 .wrapper > div:nth-child(odd){
     background:#ddd;
 }
+
+.wrapper{
+	font-family: 'Fira Sans Condensed', sans-serif
+}
