@@ -1,42 +1,77 @@
-.topnav {
-    background-color: #333;
-    overflow: hidden;
+nav li, a , button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
 }
-  
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin:10px;
-}
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%
 }
 
+.navlink{
+	
+	list-style: none;
+}.navlink li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.navlink li a {
+	transition: all 0.3 ease 0s;
+}
+nav li a:hover{
+	color: blue;
+	
+}
+.navBtn{
+	padding: 9px 25px;
+	background-color: (0,136,168,1);
+	border:none;
+	border-radius:50px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+
+}
 .wrapper{
 	display: grid;
+	grid-gap: 1em; 
+	background-color: silver;
 	grid-template-columns: 70% 30%;
 }
 
-.wrapper > div{
-	background: #eee;
-	padding: 1em;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  width: 100%;
 }
 
-.wrapper > div:nth-child(odd){
-    background:#ddd;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
 }
+li{
+	text-decoration: none;
+	list-style-type: circle;
 
-.wrapper{
-	font-family: 'Fira Sans Condensed', sans-serif
+}
+header p {
+	text-align: center;
+	font-family: sans-serif;
+}
+.element{
+	text-align: center;
+}
+.image{
+	border: solid 2px black;
+}
+.text-box p {
+	padding-top: 80px;
 }
